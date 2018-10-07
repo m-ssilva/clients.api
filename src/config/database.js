@@ -1,5 +1,5 @@
 const MongoDB = {
-    connString: '',
+    connString: 'mongodb://mongo/clients',
     configs: { useNewUrlParser: true }
 }
 
