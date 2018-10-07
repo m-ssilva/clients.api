@@ -38,7 +38,7 @@ Running project:
 
 or 
 
-> npm run dev 
+> $ npm run dev 
 
 for nodemon version, need to be in the root folder.
 
