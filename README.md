@@ -8,8 +8,6 @@ These instructions will get this project up and running in your machine.
 
 ### Prerequisites
 
-Para utilizar essa API é necessário ter instalado os componentes abaixo:
-
 > [NodeJS](https://nodejs.org/)
 
 ### Installing
