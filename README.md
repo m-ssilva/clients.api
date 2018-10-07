@@ -1,6 +1,6 @@
 # clients.api
 
-A simple API with CRUD functions.
+A simple API build with NodeJS, MongoDB and Docker.
 
 ## Getting Started
 
@@ -9,6 +9,7 @@ These instructions will get this project up and running in your machine.
 ### Prerequisites
 
 > [NodeJS](https://nodejs.org/)
+> [Docker](https://www.docker.com/)
 
 ### Installing
 
@@ -22,23 +23,9 @@ Running project:
 
 > $ cd ./clients.api
 
-- Installing components: 
+- Creating containers for API and Mongo: 
 
-> $ npm install
-
-- Set your MongoDB connection string on _database.js_ file in:
-
-> $ cd ./src/config
-
-- Running the API:
-
-> $ npm start 
-
-or 
-
-> $ npm run dev 
-
-for nodemon version, need to be in the root folder.
+> $ docker-compose up
 
 ## Built With
 
