@@ -9,6 +9,7 @@ These instructions will get this project up and running in your machine.
 ### Prerequisites
 
 > [NodeJS](https://nodejs.org/)
+
 > [Docker](https://www.docker.com/)
 
 ### Installing
