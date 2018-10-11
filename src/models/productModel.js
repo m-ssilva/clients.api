@@ -5,6 +5,23 @@ mongoose.connect(mongoDB.connString, mongoDB.configs);
 
 const Schema = mongoose.Schema;
 
+/**
+ * @swagger
+ * definitions:
+ *   Product:
+ *     type: object
+ *     required:
+ *       - name
+ *       - price
+ *     properties:
+ *       name:
+ *         type: string
+ *       price:
+ *         type: number
+ *     items:
+ *       $ref '#definitions/Product'
+ */
+
 const productSchema = new Schema({
     name: String,
     price: Number
