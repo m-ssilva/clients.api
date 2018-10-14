@@ -11,14 +11,14 @@
   "author": "m-ssilva",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "mongoose": "^5.3.1",
-    "swagger-jsdoc": "^3.2.3",
-    "swagger-model-validator": "^3.0.5",
-    "swagger-ui-express": "^4.0.1"
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "mongoose": "5.3.1",
+    "swagger-jsdoc": "3.2.3",
+    "swagger-model-validator": "3.0.5",
+    "swagger-ui-express": "4.0.1"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "1.18.4"
   }
 }
