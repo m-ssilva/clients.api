@@ -40,12 +40,12 @@ mongoose.connect(mongoDB.connString, mongoDB.configs);
  */
 
 const clientSchema = new Schema({
-    name: String,
-    document: String,
-    mail: String,
-    phone: String,
-    products: [Product.schema],
-    type: Number
+    name: { type: String, required: true },
+    document: { type: String, required: true },
+    mail: { type: String, required: true },
+    phone: { type: String, required: true },
+    products: { type: [Product.schema] },
+    type: { type: Number, required: true },
 })
 
 const Client = mongoose.model('Client', clientSchema);
